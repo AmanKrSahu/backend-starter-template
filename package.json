@@ -1,0 +1,60 @@
+{
+  "name": "backend-starter-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --files src/api/index.ts",
+    "build": "tsc && cp ./package.json ./dist",
+    "start": "node dist/index.js",
+    "lint": "npx eslint ./src",
+    "lint:fix": "npm run lint -- --fix",
+    "format": "prettier . --check",
+    "format:fix": "prettier . --write",
+    "type-check": "tsc -b",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmanKrSahu/backend-starter-template.git"
+  },
+  "keywords": [],
+  "author": "Aman Kumar Sahu",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AmanKrSahu/backend-starter-template/issues"
+  },
+  "homepage": "https://github.com/AmanKrSahu/backend-starter-template#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-conventional": "^19.7.1",
+    "@eslint/compat": "^1.2.7",
+    "@eslint/eslintrc": "^3.3.0",
+    "@eslint/js": "^9.21.0",
+    "@types/cookie-parser": "^1.4.8",
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.9",
+    "@typescript-eslint/eslint-plugin": "^8.26.0",
+    "@typescript-eslint/parser": "^8.26.0",
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.2",
+    "eslint-import-resolver-typescript": "^3.8.3",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-unicorn": "^56.0.1",
+    "husky": "^9.1.7",
+    "prettier": "^3.5.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.2"
+  }
+}
