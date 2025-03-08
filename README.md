@@ -4,12 +4,7 @@ Building an optimized backend project from scratch can be time-consuming and com
 
 This template includes Node.js, Express.js, and TypeScript, along with strict ESLint rules, Prettier configuration, and essential repository standards. It also integrates best practices for code quality, consistency, and maintainability, making it easier to start new projects efficiently while allowing for future enhancements.
 
-<img src="https://img.shields.io/badge/node%20js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white" /> 
-<img src="https://img.shields.io/badge/express%20js-000000?style=for-the-badge&logo=express&logoColor=white" /> 
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white" />
-<img src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E" />
-<img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
+<img src="https://img.shields.io/badge/node%20js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white" /> <img src="https://img.shields.io/badge/express%20js-000000?style=for-the-badge&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white" /> <img src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E" /> <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
 
 <br>
 
